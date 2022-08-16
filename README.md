@@ -6,13 +6,13 @@ Form controller for both React Native and React Dom
 npm i opium-forms
 ```
 
-## 2. Wrap your dummy component with `withForm`
+## 2. Wrap your dummy component with `withForm` HOC
 ```jsx
 import { withForm } from 'opium-forms'
 
 const MyInput = withForm(() => 'Your code here')
 ```
-
+|---|---|
 This will add following props to the component:
 | `value` | value of the component. Will be changed automatically |
 | `initialValue` | this value will be used to reset the form. If not specified, `value` will be used to reset |
