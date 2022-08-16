@@ -12,8 +12,9 @@ import { withForm } from 'opium-forms'
 
 const MyInput = withForm(() => 'Your code here')
 ```
-|---|---|
+
 This will add following props to the component:
+|---|---|
 | `value` | value of the component. Will be changed automatically |
 | `initialValue` | this value will be used to reset the form. If not specified, `value` will be used to reset |
 | `name` | Required `string`. Name of the value in the output object. You can use string (`user`) or object-like strings (`user.email`, 'user.accounts[0]') to describe the structure of the object |
